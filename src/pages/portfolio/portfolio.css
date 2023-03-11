@@ -1,0 +1,196 @@
+/* --- MOBILE STYLES --- */
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin-top: var(--spacing);
+  padding-bottom: var(--spacing);
+}
+
+.projectCard {
+  color: white;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  flex-direction: column;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.textWrap {
+  transition: all 0.9s ease-in-out;
+  z-index: 1;
+}
+
+.projectLink {
+  text-decoration: none;
+}
+
+.imageContainer img {
+  height: 12em;
+  margin-top: 25px;
+  transition: all 1.3s ease-in-out;
+}
+
+.tech {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.viewWork {
+  font-size: 14px;
+}
+
+.projectTitle {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.githubLink {
+  text-decoration: none;
+}
+
+.projectCard::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modalContainer {
+  background-color: rgba(16, 16, 16, 0.9);
+  color: #9f9f9f;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2%;
+}
+
+.closeModal {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+.closeModal:hover {
+  filter: brightness(100);
+}
+
+.modalImg {
+  max-width: 100%;
+  width: 70%;
+  position: a;
+  margin: 10px auto;
+  height: 300px;
+}
+
+.modalTitle {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.projectDescription {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* --- MEDIA QUEIRES --- */
+
+@media (min-width: 750px) {
+  .projectCard {
+    flex-direction: row;
+    padding: var(--sm-spacing) !important;
+    height: 350px;
+  }
+
+  .portfolio {
+    padding-left: var(--spacing);
+    padding-right: var(--spacing);
+  }
+
+  .imageContainer {
+    transform: translateX(30%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .projectCard:hover .imageContainer {
+    transform: translateX(-70%);
+  }
+
+  .projectCard:hover .textWrap {
+    transform: translateX(-250%);
+  }
+
+  .projectCard:hover::before {
+    opacity: 0;
+  }
+
+  .projectCard:hover .imageContainer img {
+    scale: 1.4;
+  }
+
+  .imageContainer {
+    transform: translateX(30%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .textWrap {
+    text-shadow: none;
+  }
+
+  .projectTitle {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  .viewWork {
+    font-size: 16px;
+  }
+
+  .tech {
+    font-size: 14px;
+  }
+
+  .modalContainer {
+    padding: 2%;
+    width: 80%;
+  }
+
+  .modalImg {
+    width: 60%;
+  }
+
+  .modalImg:hover {
+    transform: scale(1.5);
+  }
+  .modalTitle {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .projectDescription {
+    font-size: 16px;
+  }
+}
