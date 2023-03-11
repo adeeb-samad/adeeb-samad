@@ -6,7 +6,7 @@
     "imageTow": "./projectImages/pirates1.png",
     "description": "This dashboard uses the TMDB API to retrieve detailed movies data, including the movie name, date, rating, catagory, and top crew using Vanilla JS. The dashboard has search feature that all muthed movies with thumbnails for easy access.",
     "technologies": "JS | Postman | CSS",
-    "github": "https://github.com/mdyeates/bike-buddy",
+    "github": "https://github.com/202212-GIZ-YE-FEW/movie-project-parties-of-the-caribbean",
     "deployed": "https://202212-giz-ye-few.github.io/movie-project-parties-of-the-caribbean/",
     "bgcolor": "#f37737"
   },
@@ -16,9 +16,9 @@
     "image": "./projectImages/madLibz.png",
     "image1": "./projectImages/madlibz1.png",
     "technologies": "JS | HTML | CSS",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
-    "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "description": "MaDreamLibs for Kids is a phrasal template word game that consists of one player prompting others for a list of words to substitute for blanks in a story before reading. The concept is to help the dreams of kids come true.",
+    "github": "https://github.com/202212-GIZ-YE-FEW/mad-libs-dream-team",
+    "deployed": "",
     "bgcolor": "#29cbe0"
   }
 ]
