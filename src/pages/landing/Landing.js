@@ -37,16 +37,6 @@ const Landing = ({ name, tagline }) => {
           transition={{ duration: 1, ease: "easeInOut" }}>Hire Me</motion.button>
         </a>
       </div>
-{/*       <div className="image-container">
-        <motion.img
-          className="landingImage"
-          ref={ref}
-          initial={{ y: "10vw", opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 0.4 } : { y: "10vw", opacity: 0 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          src={landingImage}
-          alt="" />
-      </div> */}
     </section>
   );
 };
