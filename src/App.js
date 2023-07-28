@@ -12,7 +12,7 @@ function App() {
     availability: "Open for work",
     brand: "Pixel Perfect",
     statement:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "My unique blend of technical expertise, creative thinking, and background in Business Administration allows me to approach each project with a deep understanding of the business need, resulting in highly effective digital products.",
   };
 
   return (
