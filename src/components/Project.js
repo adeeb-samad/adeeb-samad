@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import Modal from "react-modal";
 import { useState } from "react";
 
-const Project = ({ technologies, title, imageOne, imageTow, color, id, github, deployed, description }) => {
+const Project = ({ technologies, title, image, image1, color, id, github, deployed, description }) => {
   const [ref, inView] = useInView({
     threshold: 0.5,
     triggerOnce: true,
@@ -42,7 +42,7 @@ const Project = ({ technologies, title, imageOne, imageTow, color, id, github, d
           <span className="viewWork">View Work &#8594;</span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
-          <img src={imageOne} alt="Laptop displaying application" />
+          <img src={image} alt="Laptop displaying application" />
         </div>
       </div>
       <Modal
@@ -52,7 +52,7 @@ const Project = ({ technologies, title, imageOne, imageTow, color, id, github, d
       >
         <i className="fa fa-x" onClick={handleCloseModal}></i>
         {/**/}
-          <img src={imageTow} className="modalImg" alt={title} />
+          <img src={image1} className="modalImg" alt={title} />
         {/**/}
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
