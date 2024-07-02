@@ -1,3 +1,3 @@
 Hi there, I'm
-##Adeeb Abdulsamad,
-a front-end developer 
+## Adeeb Abdulsamad
+, a front-end developer 
