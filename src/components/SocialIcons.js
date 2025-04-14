@@ -8,7 +8,7 @@ const SocialIcons = () => {
         <i className="fa-brands fa-linkedin" aria-label="See my LinkedIn profile" title="Adeeb's LinkedIn Profile"></i>
       </a>
       <a className="icon" href="https://www.facebook.com/adeebsamed">
-        <i className="fa-brands fa-facebook" aria-label="FollowmeonFacebook" title="Adeeb's Facebook Profile"></i>
+        <i className="fa-brands fa-facebook" aria-label="Follow me on Facebook" title="Adeeb's Facebook Profile"></i>
       </a>
     </div>
   );
