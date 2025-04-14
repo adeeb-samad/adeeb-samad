@@ -118,7 +118,7 @@ header {
 }
 
 .brand p:last-child {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .links {
@@ -181,7 +181,7 @@ footer {
   color: var(--text-color);
   text-align: center;
   margin-left: 10px;
-  font-size: .6em;
+  font-size: .8em;
   flex-shrink: 0;
 }
 
