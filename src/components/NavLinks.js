@@ -5,7 +5,7 @@ const NavLinks = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
-      <button className="dropdown-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+      <button className="dropdown-toggle" aria-label="menu toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         {isMenuOpen ? (
           <i className="closeMenu fa fa-x"></i>
         ) : (
